@@ -1,0 +1,21 @@
+{
+    "sqltools.connections": [
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "test_db",
+            "database": "mydb",
+            "username": "inkon",
+            "password": "inkon"
+        }
+    ],
+    "chat.tools.terminal.autoApprove": {
+        "/^node index\\.js$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

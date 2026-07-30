@@ -26,4 +26,8 @@ const sayHello = (name) => {
   return name;
 };
 
-export { add, subtract, multiply, division, sayHello };
+const isEven = (num) => {
+  return num % 2 == 0; 
+};
+
+export { add, subtract, multiply, division, sayHello, isEven };

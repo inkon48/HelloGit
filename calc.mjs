@@ -26,4 +26,8 @@ const sayHello = (name) => {
   return name;
 };
 
-export { add, subtract, multiply, division, sayHello };
+const welcome = (name) => {
+  return name;
+};
+
+export { add, subtract, multiply, division, sayHello, welcome };

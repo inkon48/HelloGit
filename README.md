@@ -1,3 +1,3 @@
 # HelloGit
 - [x] Learn git & github 
-- [] System design
+-  System design

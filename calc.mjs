@@ -30,4 +30,8 @@ const welcome = (name) => {
   return name;
 };
 
-export { add, subtract, multiply, division, sayHello, welcome };
+const isEven = (num) => {
+  return num % 2 == 0;
+};
+
+export { add, subtract, multiply, division, sayHello, welcome, isEven };

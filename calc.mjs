@@ -22,4 +22,8 @@ function division(num1, num2) {
   return num1 / num2;
 }
 
-export { add, subtract, multiply, division };
+const sayHello = (name) => {
+  return name;
+};
+
+export { add, subtract, multiply, division, sayHello };
